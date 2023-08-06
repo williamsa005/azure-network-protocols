@@ -25,7 +25,6 @@ In this quick reference guide, we observe various network traffic to and from Az
 - Create our resources within Azure
 - Observe ICMP Traffic
 - Observe SSH Traffic
-- Observe DHCP Traffic
 - Observe DNS Traffic
 - Observe RDP Traffic
 
@@ -88,6 +87,8 @@ Note: I filtered WireShark to monitor SSH traffic. I also SSH into VM2's system 
     a. Type commands (username, pwd, etc) into the linux SSH connection and observe SSH traffic spam in WireShark
     
     b. Exit the SSH connection by typing ‘exit’ and pressing [Enter]
+
+    <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 </p>
 <br />
