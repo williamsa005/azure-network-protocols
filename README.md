@@ -26,7 +26,7 @@ In this quick reference guide, we observe various network traffic to and from Az
 - Observe ICMP Traffic
 - Observe SSH Traffic
 - Observe DNS Traffic
-- Observe RDP Traffic
+
 
 <h2>Actions and Observations</h2>
 
@@ -88,7 +88,11 @@ Note: I filtered WireShark to monitor SSH traffic. I also SSH into VM2's system 
     
     b. Exit the SSH connection by typing ‘exit’ and pressing [Enter]
 
-    <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+<img src="https://i.imgur.com/BflvW51.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Note: I filtered WireShark to monitor DNS traffic. I searched nslookup for Google and Disney. I noticed I received an error on Disney during my initial search because I neglected to include nslookup prior to entering the Disney web address. After correcting the issue, you see the appropriate information displayed. 
 
 </p>
 <br />
